@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Videos</title>
+   <style>
+       body {
+           background-image: url('{{url_for('static', filename='background_image.jpg')}}');
+           /* background-color: red */
+       }
+       h1 {
+           font-size:50px;
+       }
+       .video {
+           display: flex;
+           flex-direction: column;
+           padding: 5px;
+           justify-content: space-around;
+       }
+       .video1 {
+           margin-top: 10px;
+           border: 1px solid black;
+       }
+       .video2 {
+           margin-top:10px
+       }
+   </style>
+</head>
+<body>
+    <h1>DEMO VIDEOS</h1>
+<div class="video">
+    <div class="video1">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WrjfUvmWzko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a5BD8SjhPSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+</body>
+</html>
