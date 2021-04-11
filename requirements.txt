@@ -1,0 +1,9 @@
+flask==1.1.2
+imutils==0.5.3
+numpy==1.16.5
+opencv-python==4.2.0.34
+argparse
+pymongo==3.10.1
+dnspython
+torch 
+torchvision
